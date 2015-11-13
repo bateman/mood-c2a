@@ -19,7 +19,7 @@ class Csv2Aiken:
         ...
 
     Aiken (output) file will look like these:
-    
+
         What is the correct answer to this question?
         A. Is it this one
         B. Maybe this answer
