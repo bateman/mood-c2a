@@ -58,3 +58,6 @@ target/
 
 # Pycharm project dir
 .idea/
+
+# virtualenv
+venv
