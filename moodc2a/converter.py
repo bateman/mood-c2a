@@ -38,7 +38,7 @@ class Csv2Aiken:
 
     def convert(self, infile, outfile):
         _out = open(outfile, mode='wb')
-        with open(infile, mode='rb') as _in:
+        with open(infile, mode='rU') as _in:
             csvreader = csv.DictReader(_in, dialect='excel', delimiter=';')
             i = 0
             for row in csvreader:
